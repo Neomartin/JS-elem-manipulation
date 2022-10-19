@@ -40,8 +40,8 @@ main {
     transition: box-shadow .3s ease-in-out, background-color .7s ease-in-out;
 }
 
-.element-item.active {
-    background-color: rgb(64, 147, 0);
+.active {
+    background-color: rgba(7, 24, 255, 0.33);
 
 }
 
