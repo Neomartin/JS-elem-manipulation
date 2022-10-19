@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    color: white;
+
+}
+
+main {
+    padding: 1rem;
+}
+
+.section-title {
+    border-bottom: 2px solid dodgerblue;
+    display: inline-block;
+}
+
+.elements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    margin: 1rem 0;
+}
+
+.element-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid dodgerblue;
+    transition: box-shadow .3s ease-in-out, background-color .7s ease-in-out;
+}
+
+.element-item.active {
+    background-color: rgb(64, 147, 0);
+
+}
+
+.element-item:hover {
+    box-shadow: 0 0 4px 2px rgb(106, 178, 250);
+}
