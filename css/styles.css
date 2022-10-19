@@ -24,6 +24,8 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 1rem;
     margin: 1rem 0;
+    border: 1px solid #444;
+    padding: 1rem;
 }
 
 .element-item {
@@ -45,4 +47,15 @@ main {
 
 .element-item:hover {
     box-shadow: 0 0 4px 2px rgb(106, 178, 250);
+}
+
+.element-title {
+    color: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid greenyellow;
+}
+
+.element-text {
+    text-align: center;
+    font-size: .75rem;
+    font-style: italic;
 }
