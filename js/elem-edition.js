@@ -53,8 +53,12 @@ console.log(elementItem);
 //Al elemento padre le añado un nodo (elemento) creado
 articleHTMLElement.appendChild(elementItem)
 
+// *** PARENT NODE AND CHILD NODE REMOVE */
+const node2 =  document.getElementById('2');
+//Obtener el nodo padre y hacer algo con el
+node2.parentElement.style.borderColor = "#adff2f3d";
 
 //Remover un nodo hijo del elemento Padre (article en nuestro caso)
-const node2 =  document.getElementById('2');
-
 articleHTMLElement.removeChild(node2);
+
+

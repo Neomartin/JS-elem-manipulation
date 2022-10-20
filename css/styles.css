@@ -33,7 +33,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #444;
+    background-color: rgba(68, 68, 68, 0.593);
     padding: 1rem;
     border-radius: 5px;
     border: 1px solid dodgerblue;
@@ -41,7 +41,7 @@ main {
 }
 
 .active {
-    background-color: rgba(7, 24, 255, 0.33);
+    background-color: rgba(7, 164, 255, 0.19);
 
 }
 
@@ -51,7 +51,7 @@ main {
 
 .element-title {
     color: rgba(0, 0, 0, 0.6);
-    border-bottom: 1px solid greenyellow;
+    border-bottom: 1px solid #ed2fff;
 }
 
 .element-text {
