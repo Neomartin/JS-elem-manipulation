@@ -33,7 +33,12 @@ console.log(elementItem.dataset.customInfo)
 //Creo el titulo
 const titleELement =  document.createElement('h2');
 titleELement.className = 'element-title';
-titleELement.innerText = `Title from JS`
+titleELement.innerText = `Title JS`
+
+//Cambiar estilos
+titleELement.style.color = 'greenyellow';
+titleELement.style.fontWeight = 'normal';
+
 //Creo el parrafp
 const pElement = document.createElement('p');
 pElement.className = `element-text`;
@@ -47,3 +52,9 @@ elementItem.append(titleELement, pElement)
 console.log(elementItem);
 //Al elemento padre le añado un nodo (elemento) creado
 articleHTMLElement.appendChild(elementItem)
+
+
+//Remover un nodo hijo del elemento Padre (article en nuestro caso)
+const node2 =  document.getElementById('2');
+
+articleHTMLElement.removeChild(node2);
